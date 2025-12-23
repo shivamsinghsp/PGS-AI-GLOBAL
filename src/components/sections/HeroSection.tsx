@@ -60,14 +60,14 @@ export default function HeroSection() {
           </motion.h1>
 
           {/* Subtitle */}
-          <motion.p
+            <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl mx-auto mb-12 leading-relaxed font-inter"
-          >
+            className="text-lg md:text-xl lg:text-2xl text-white max-w-3xl mx-auto mb-12 leading-relaxed font-inter"
+            >
             Where Cutting-Edge AI Meets Real-World Impact
-          </motion.p>
+            </motion.p>
 
           {/* CTA Buttons */}
           <motion.div

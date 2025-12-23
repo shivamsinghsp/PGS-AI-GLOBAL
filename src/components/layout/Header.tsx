@@ -56,9 +56,20 @@ export default function Header() {
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-              <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
+              {/* <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
                 <span className="font-orbitron font-bold text-background text-lg">P</span>
-              </div>
+              </div> */}
+
+
+              <div className="w-15 h-15 rounded-lg bg-gradient-gold flex items-center justify-center overflow-hidden">
+              <img
+                src="public\pgs logo.png"
+                alt="PGS AI Logo"
+                className="w-10 h-10 object-contain"
+              />
+            </div>
+
+
               <div className="absolute -inset-1 bg-gradient-gold rounded-lg blur-lg opacity-30" />
             </div>
             <span className="font-orbitron font-bold text-xl tracking-wider">
