@@ -63,7 +63,7 @@ export default function Header() {
 
               <div className="w-15 h-15 rounded-lg bg-gradient-gold flex items-center justify-center overflow-hidden">
               <img
-                src="public\pgs logo.png"
+                src="\pgs logo.png"
                 alt="PGS AI Logo"
                 className="w-10 h-10 object-contain"
               />
